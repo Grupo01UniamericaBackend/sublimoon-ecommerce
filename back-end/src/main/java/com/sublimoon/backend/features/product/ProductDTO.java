@@ -19,7 +19,7 @@ public record ProductDTO(
 
     Category categoria,
 
-    Color color,
+    Color cor,
 
     @NotBlank
     @Size(
@@ -54,7 +54,7 @@ public record ProductDTO(
             id, 
             nome, 
             categoria, 
-            color, 
+            cor, 
             descricao, 
             imagem, 
             preco, 

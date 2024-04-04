@@ -36,7 +36,7 @@ public class SecurityConfigurations {
                 )
                 .authorizeHttpRequests(authorize -> authorize
                     .requestMatchers(
-                        HttpMethod.GET, "api/produto/**"
+                        HttpMethod.GET, "api/produto/**", "carousel"
                     ).permitAll()
                     .requestMatchers(
                         HttpMethod.POST, "/auth/login", "/auth/register"

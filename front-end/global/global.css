@@ -1,0 +1,22 @@
+@import url(root.css);
+@import url(../components/header/header.css);
+
+#root {
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: var(--tertiary-color);
+}
+
+#page-content {
+    width: 100%;
+    min-width: 360px;
+    max-width: 1440px;
+    height: 100vh;
+
+    display: flex;
+
+    background-color: var(--secondary-color);
+}

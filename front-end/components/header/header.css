@@ -1,0 +1,26 @@
+#header {
+    width: 100%;
+    height: 70px;
+
+    padding: 0px 7px 0px 7px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: var(--primary-color);
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+
+    font-family: "Playpen sans", cursive;
+    font-size: 1.5rem;
+
+    color: var(--secondary-color);
+}
+
+.header__logo img {
+    margin-right: 7px;
+}

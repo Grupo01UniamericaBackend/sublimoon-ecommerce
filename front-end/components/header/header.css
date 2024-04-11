@@ -11,16 +11,56 @@
     background-color: var(--primary-color);
 }
 
-.header__logo {
+.logo {
     display: flex;
     align-items: center;
 
     font-family: "Playpen sans", cursive;
-    font-size: 1.5rem;
 
     color: var(--secondary-color);
 }
 
-.header__logo img {
+.logo__image {
     margin-right: 7px;
+}
+
+.logo__name {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+}
+
+.logo__name span:first-child {
+    color: rgb(207, 0, 207);
+}
+
+.logo__name span:nth-child(2) {
+    color: rgb(0, 81, 255);
+}
+
+.logo__name span:nth-child(3) {
+    color: rgb(0, 179, 0);
+}
+
+.logo__name span:nth-child(4) {
+    color: yellow;
+}
+
+.logo__name span:nth-child(5) {
+    color: red;
+}
+
+.logo__name span:nth-child(6) {
+    color: orange;
+}
+
+.logo__name span:nth-child(7) {
+    color: rgb(0, 179, 0);
+}
+
+.logo__name span:nth-child(8) {
+    color: rgb(207, 0, 207);
+}
+
+.logo__name span:nth-child(9) {
+    color: yellow;
 }

@@ -1,6 +1,6 @@
 #header {
     width: 100%;
-    height: 70px;
+    height: 5rem;
 
     padding: 0px 7px 0px 7px;
 
@@ -9,58 +9,4 @@
     justify-content: space-between;
 
     background-color: var(--primary-color);
-}
-
-.logo {
-    display: flex;
-    align-items: center;
-
-    font-family: "Playpen sans", cursive;
-
-    color: var(--secondary-color);
-}
-
-.logo__image {
-    margin-right: 7px;
-}
-
-.logo__name {
-    font-size: 1.5rem;
-    letter-spacing: 0.1rem;
-}
-
-.logo__name span:first-child {
-    color: rgb(207, 0, 207);
-}
-
-.logo__name span:nth-child(2) {
-    color: rgb(0, 81, 255);
-}
-
-.logo__name span:nth-child(3) {
-    color: rgb(0, 179, 0);
-}
-
-.logo__name span:nth-child(4) {
-    color: yellow;
-}
-
-.logo__name span:nth-child(5) {
-    color: red;
-}
-
-.logo__name span:nth-child(6) {
-    color: orange;
-}
-
-.logo__name span:nth-child(7) {
-    color: rgb(0, 179, 0);
-}
-
-.logo__name span:nth-child(8) {
-    color: rgb(207, 0, 207);
-}
-
-.logo__name span:nth-child(9) {
-    color: yellow;
 }

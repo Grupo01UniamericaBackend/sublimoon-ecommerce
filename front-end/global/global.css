@@ -1,5 +1,4 @@
 @import url(root.css);
-@import url(../components/header/header.css);
 
 #root {
     width: 100vw;
@@ -19,4 +18,62 @@
     display: flex;
 
     background-color: var(--secondary-color);
+}
+
+.logo {
+    width: 4.5rem;
+    height: 4.5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color:#e9e9ff;
+    box-shadow: 0px 0px 1rem aliceblue;
+
+    border-radius: 50%;
+
+    font-family: "Playpen sans", cursive;
+}
+
+.logo__name {
+    font-size: 1.5rem;
+    text-shadow: -0.1rem 0.05rem black;
+    line-height: 75%;
+}
+
+.logo__name span:first-child {
+    color: rgb(207, 0, 207);
+}
+
+.logo__name span:nth-child(2) {
+    color: rgb(0, 81, 255);
+}
+
+.logo__name span:nth-child(3) {
+    color: rgb(0, 179, 0);
+}
+
+.logo__name span:nth-child(4) {
+    color: yellow;
+}
+
+.logo__name span:nth-child(5) {
+    color: red;
+}
+
+.logo__name span:nth-child(7) {
+    color: orange;
+}
+
+.logo__name span:nth-child(8) {
+    color: rgb(0, 179, 0);
+}
+
+.logo__name span:nth-child(9) {
+    color: rgb(207, 0, 207);
+}
+
+.logo__name span:nth-child(10) {
+    color: yellow;
 }

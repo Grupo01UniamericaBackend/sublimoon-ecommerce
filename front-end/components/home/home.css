@@ -1,0 +1,6 @@
+@import url(../carousel/carousel.css);
+
+#main-content {
+    display: flex;
+    justify-content: center;
+}

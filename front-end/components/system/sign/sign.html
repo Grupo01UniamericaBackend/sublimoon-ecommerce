@@ -28,15 +28,26 @@
                 <div class="sign-scene">
                     <div class="sign-card">
                         <div class="sign-card__face sign-card__face--front">
-                            <a href="" class="logo">
-                                <h1 class="logo__name">
-                                    <span>S</span><span>u</span><span>b</span><span>l</span><span>i</span><br>
-                                    <span>m</span><span>o</span><span>o</span><span>n</span>
-                                </h1>
-                            </a>
-                            <p>Não tem uma conta? 
-                                <span class="sign-up-button">Criar conta</span>
-                            </p>
+                            <form action="" method="post" class="sign-form">
+                                <h1>Entrar</h1>
+                                <label for="mail" class="sign-form__label">
+                                    <Span>E-mail:</Span>
+                                    <input type="email" name="usermail" id="mail">
+                                </label>
+                                <label for="password" class="sign-form__label">
+                                    <span>Senha:</span>
+                                    <input type="password" name="userpassword" id="password">
+                                </label>
+                                <button 
+                                    type="button"
+                                    class="sign-form__button" 
+                                    id="sign-form__enter-button">
+                                    Entrar
+                                </button>
+                                <p>Não tem uma conta? 
+                                    <span class="sign-up-button">Criar conta</span>
+                                </p>
+                            </form>
                         </div>
                         <div class="sign-card__face sign-card__face--back">
                             <a href="" class="logo">

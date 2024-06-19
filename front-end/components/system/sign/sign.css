@@ -26,13 +26,8 @@
     height: 100%;
     backface-visibility: hidden;
     background-color: var(--primary-color);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
     border-radius: 16px;
     font-family: var(--main-font);
-    border-top: 1rem solid #7a799c;
 }
 
 .sign-card__face--back {
@@ -43,4 +38,30 @@
     cursor: pointer;
     color: var(--secondary-color);
     text-decoration-line: underline;
+}
+
+.sign-form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.sign-form__label {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.sign-form__button {
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: var(--tertiary-color);
+}
+
+.sign-form__button:hover {
+    background-color: var(--secondary-color);
 }

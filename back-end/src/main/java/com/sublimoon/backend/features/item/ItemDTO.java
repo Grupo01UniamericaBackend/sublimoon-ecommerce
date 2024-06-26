@@ -31,7 +31,9 @@ public record ItemDTO(
         max = 256,
         message = "A descrição teve conter no mínimo 2 caracteres."
     )
-    String description
+    String description,
+
+    String operationActor
     ) {
     
     public ItemEntity convertToEntity() {
@@ -39,7 +41,8 @@ public record ItemDTO(
             id, 
             name, 
             price, 
-            description
+            description,
+            operationActor
         );
     }
 }
